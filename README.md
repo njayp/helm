@@ -1,4 +1,20 @@
-# Helm
+# Helm (MCP Fork)
+
+## Quickstart
+
+```bash
+# get repo
+git clone https://github.com/njayp/helm
+cd helm
+
+# build helm
+make
+
+# enable mcp server
+./bin/helm mcp claude enable
+```
+
+----
 
 [![Build Status](https://github.com/helm/helm/workflows/release/badge.svg)](https://github.com/helm/helm/actions?workflow=release)
 [![Go Report Card](https://goreportcard.com/badge/helm.sh/helm/v4)](https://goreportcard.com/report/helm.sh/helm/v4)
